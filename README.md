@@ -14,7 +14,7 @@ This project is a basic calculator written in C++ that can perform addition, sub
 **Key Concepts**: Input/output handling, arithmetic operations, basic control flow  
 **Technologies**: C++
 
-[Link to the Code](https://github.com/YourUsername/YourRepo/blob/main/simple-calculator.cpp)
+[Link to the Code](https://github.com/YourUsername/YourRepo/blob/main/simple-calculator.cpp)](https://github.com/jrsdn25/College-Portfolio/blob/main/Simple%20Calculator.cpp)
 
 ---
 
@@ -25,7 +25,7 @@ This project calculates a student’s average grade based on scores entered for 
 **Key Concepts**: Conditional statements, user input/output, basic arithmetic  
 **Technologies**: C++, Math functions
 
-[Link to the Code](https://github.com/YourUsername/YourRepo/blob/main/simple-grading-system.cpp)
+[[Link to the Code](https://github.com/YourUsername/YourRepo/blob/main/simple-grading-system.cpp)](https://github.com/jrsdn25/College-Portfolio/blob/main/Simple%20Grading%20System.cpp)
 
 ---
 
@@ -35,6 +35,8 @@ This project demonstrates the use of nested `if` conditions in C++ for evaluatin
 
 **Key Concepts**: Nested `if` conditions, input validation, user input/output  
 **Technologies**: C++
+
+[[Link to the code](https://github.com/jrsdn25/College-Portfolio/blob/main/Simple%20Nested%20If%20Condition.cpp)](https://github.com/jrsdn25/College-Portfolio/blob/main/Simple%20Nested%20If%20Condition.cpp)
 
 Here’s a preview of the nested `if` condition that evaluates the average grade:
 ```cpp
@@ -49,3 +51,4 @@ if (total > 100) {
 } else {
     cout << "Do your best next time.";
 }
+
