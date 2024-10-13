@@ -8,8 +8,6 @@ int main()
 {
     double math,scie,fil,eng,phyed,socstudy,arts,result,total;
     string Fullname;
-    string PassFail;
-    char midin;
     cout<<"============================"<<"\n";
     cout<<"   Simple Grading System"<<"\n";
     cout<<"============================"<<"\n";
