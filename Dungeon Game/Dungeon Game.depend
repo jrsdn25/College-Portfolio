@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1741503908 source:c:\users\dane\documents\prelim\dungeon game\main.cpp
+	"Dungeon Game.h"
+	<iostream>
+
+1741505039 c:\users\dane\documents\prelim\dungeon game\dungeon game.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<unistd.h>
+
