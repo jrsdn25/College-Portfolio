@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1742387188 source:c:\users\dane\documents\prelim\amongus again\main.cpp
+	"amongUs Again.h"
+	<iostream>
+
+1742387433 c:\users\dane\documents\prelim\amongus again\amongus again.h
+	<vector>
+	<string>
+	<iostream>
+
+1742392158 source:c:\users\dane\documents\prelim\amongus again\amongus again.cpp
+	"amongUs Again.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+
