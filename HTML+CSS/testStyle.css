@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    background: rgb(3, 33, 71);
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header ul li {
+    padding: 0 30px;
+}
+
+footer {
+    background: rgb(3, 33, 71);
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    font-size: 16px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-bottom: var(--border);
+    padding-bottom: 50px;
+}
+
+.banner .content {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.banner .content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.gradientText {
+    display: inline-block;
+    background-image: 
+        linear-gradient(
+            -45deg, #D000F7, #24BAE3
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+}
+
+.job::before {
+    content: attr(data-job1);
+    overflow: hidden;
+    display: inline-flex;
+    animation: effectText 1s linear infinite alternate, changeText 4s linear infinite;
+}
+
+@keyframes effectText{
+    from{
+        max-width: 0;
+    } to {
+        max-width: 500px;
+    }
+}
+
+@keyframes changeText{
+    0%{
+        content: attr(data-job1);
+    } 100%{
+        content: attr(data-job2);
+    }
+}
